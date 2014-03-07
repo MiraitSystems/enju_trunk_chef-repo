@@ -1,0 +1,35 @@
+{
+  "override_attributes": {
+    "java": {
+      "install_flavor": "oracle",
+      "jdk_version": 7,
+      "java_home": "/usr/local/java",
+      "oracle" : {
+        "accept_oracle_download_terms": true
+      }
+    }
+  },
+  "postgresql": {
+		"version" : "9.3"
+  },
+	"rbenv": {
+		'rubies'  => ['2.0.0-p451'],
+		'global'  => '2.0.0-p451'
+  },
+	"run_list": [
+  	"yum",
+	  "recipe[user]",  
+    "recipe[site_user]",
+    "recipe[nginx]",
+    "recipe[java]",
+    "recipe[tomcat]",
+    "recipe[memcached]",
+    "recipe[redis]",
+		"recipe[postgresql]",
+		"recipe[postgresql::server]",
+		"recipe[postgresql::contrib]",
+    "recipe[ruby_build]",
+    "recipe[rbenv::system_install]",
+		"recipe[fail2ban]"
+  ]
+}

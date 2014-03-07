@@ -1,0 +1,69 @@
+{
+  "sources": {
+    "user": {
+      "locked_version": "0.3.0"
+    },
+    "yum": {
+      "locked_version": "3.1.2"
+    },
+    "nginx": {
+      "locked_version": "2.4.2"
+    },
+    "memcached": {
+      "locked_version": "1.7.0"
+    },
+    "java": {
+      "locked_version": "1.20.0"
+    },
+    "tomcat": {
+      "locked_version": "0.15.4"
+    },
+    "redis": {
+      "locked_version": "3.0.4"
+    },
+    "fail2ban": {
+      "locked_version": "2.1.2"
+    },
+    "postgresql": {
+      "locked_version": "3.3.4"
+    },
+    "ruby_build": {
+      "locked_version": "0.8.0"
+    },
+    "rbenv": {
+      "locked_version": "0.7.3",
+      "git": "git://github.com/fnichol/chef-rbenv.git",
+      "ref": "48973f130f8e44aab4f89b17f8cc6f046e644799"
+    },
+    "apt": {
+      "locked_version": "2.3.8"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.12.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.4"
+    },
+    "ohai": {
+      "locked_version": "1.1.12"
+    },
+    "runit": {
+      "locked_version": "1.5.8"
+    },
+    "yum-epel": {
+      "locked_version": "0.3.4"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "install_from": {
+      "locked_version": "3.0.4"
+    },
+    "metachef": {
+      "locked_version": "3.0.4"
+    }
+  }
+}
